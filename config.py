@@ -52,7 +52,7 @@ class Config:
 class DevelopmentConfig(Config):
     DEBUG = False
     # SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/test_mysql_db"
-    SQLALCHEMY_DATABASE_URI = "mysql://root:hesai1588@127.0.0.1:3306/test_db?charset=utf8mb4"
+    SQLALCHEMY_DATABASE_URI = "mysql://root:qa1234@127.0.0.1:3306/test_db?charset=utf8mb4"
 
 
 class TestingConfig(Config):

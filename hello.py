@@ -74,4 +74,4 @@ if __name__ == "__main__":
     # 启动日志
     handler = log_config()
     app.logger.addHandler(handler)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
